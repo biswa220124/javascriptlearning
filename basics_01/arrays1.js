@@ -1,0 +1,12 @@
+let myArr = [1,2,3,4,5,6];
+console.log(Array.isArray(myArr));
+const one = 1; 
+const two = 2;
+const three = 3;
+console.log(Array.of(one,two,three));
+let myName = "Biswa";
+console.log(Array.from(myName));
+const anotherArr = [1,2,[4,6,[9,0]]];
+console.log(anotherArr.flat(Infinity));
+console.log(myArr.concat(anotherArr));
+const mergeArr = [...myArr,anotherArr]; console.log(mergeArr);
