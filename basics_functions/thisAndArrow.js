@@ -25,3 +25,12 @@ const newFunc= ()=>{
     console.log(this.username);
     
 }
+
+const addFun = (val1,val2) =>{
+    return val1+val2;
+}
+//console.log(addFun(5,6));
+
+const addTwo = (num1,num2) =>(num1+num2);
+console.log(addTwo(11,1));
+
